@@ -1,6 +1,7 @@
 import classic from 'ember-classic-decorator';
 import { action } from '@ember/object';
 import Controller from '@ember/controller';
+import { async } from 'rsvp';
 
 @classic
 export default class RegisterController extends Controller {
